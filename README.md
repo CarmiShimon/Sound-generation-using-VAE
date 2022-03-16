@@ -37,3 +37,4 @@ This script takes spectrograms from SPECTROGRAM_PATH and save audio signals in S
 Place it under 'saved_models_256'
 
 ## Reconstruction results
+![Reconstructed spectrogram](./images/reconstruction.png)
