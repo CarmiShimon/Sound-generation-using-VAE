@@ -8,5 +8,5 @@ Pytorch implementation of Emotions generation with VAE using EmoV-DB.
 [EmoV-DB](https://github.com/numediart/EmoV-DB)
 
 ### Audio files:
-![Audio](/../images/audio.png)
+![Audio](./images/audio.png)
 ![Spectrogram](/../images/spectrogram.png)
