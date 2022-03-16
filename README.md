@@ -16,7 +16,7 @@ Pytorch implementation of Emotions generation with VAE using EmoV-DB.
 
 ## Data preperation
 - Download EmoV-DB
-- Run '!python 'emodb_preprocess.py' --frame_size 512 --hop_length 313 --duration 5'
+- Run '!python 'emodb_preprocess.py' --frame_size 256 --hop_length 313 --duration 5'
 This will split the data to 80% train and 20% test. The max length audio would be 5 second. 
 You should see the creation of a spectrogram dir.
 
