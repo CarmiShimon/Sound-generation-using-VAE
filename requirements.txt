@@ -1,0 +1,3 @@
+librosa
+pytorch==1.10.0
+scipy
