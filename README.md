@@ -40,3 +40,5 @@ Place it under 'saved_models_256'
 ![Reconstructed spectrogram](./images/reconstruction.png)
 ![Reconstructed spectrogram](./images/reconstruction2.png)
 ![Reconstructed spectrogram](./images/reconstruction3.png)
+![Reconstructed spectrogram](./images/reconstruction4.png)
+
