@@ -12,3 +12,7 @@ Pytorch implementation of Emotions generation with VAE using EmoV-DB.
 ![Audio](./images/audio.png)
 **Spectrogram**
 ![Spectrogram](./images/spectrogram.png)
+
+### pre-trained models
+[256X256 spectrogram model](https://drive.google.com/file/d/1B6yFE6gwGfqQrfuOapahrpdfNig4QQUj/view?usp=sharing)
+Place it under 'saved_models_256'
