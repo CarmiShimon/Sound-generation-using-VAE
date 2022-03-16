@@ -29,8 +29,9 @@ This will save a model each epoch
 - Play around the reconstruction_term_weight
 
 ## Sound generation using a pre-trained VAE Model
-- 
+- Run generator.py
+This script takes spectrograms from SPECTROGRAM_PATH and save audio signals in SAVE_DIT_GENERATED
 
-### pre-trained models
+## pre-trained models
 [256X256 spectrogram model](https://drive.google.com/file/d/1B6yFE6gwGfqQrfuOapahrpdfNig4QQUj/view?usp=sharing)
 Place it under 'saved_models_256'
