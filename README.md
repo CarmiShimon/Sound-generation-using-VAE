@@ -16,13 +16,13 @@ Pytorch implementation of Emotions generation with VAE using EmoV-DB.
 
 ## Data preperation
 - Download EmoV-DB
-- Run the following line
+- Run the following command line
 ```python 'emodb_preprocess.py' --data_dir './data/audio/' --frame_size 256 --hop_length 313 --duration 5```
 This will split the data to 80% train and 20% test. The max length audio would be 5 second. 
 You should see the creation of a spectrogram dir.
 
 ## Training a VAE Model
-- Run model_training.py
+- Run ```python model_training.py```
 This will save a model each epoch
 
 * In order to get better reconstruction results:
@@ -30,7 +30,7 @@ This will save a model each epoch
 - Play around the reconstruction_term_weight
 
 ## Sound generation using a pre-trained VAE Model
-- Run generator.py
+- Run ```python generator.py```
 This script takes spectrograms from SPECTROGRAM_PATH and save audio signals in SAVE_DIR_GENERATED
 
 ## pre-trained models
